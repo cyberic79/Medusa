@@ -30,7 +30,7 @@ class Torrentz2Provider(TorrentProvider):
         self.public = True
 
         # URLs
-        self.url = 'https://torrentz2.eu/'
+        self.url = 'https://torrentz2eu.org/'
         self.urls = {
             'base': self.url,
             'verified': urljoin(self.url, 'feed_verified'),
